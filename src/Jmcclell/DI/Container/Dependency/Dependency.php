@@ -9,9 +9,7 @@ use Jmcclell\DI\Container\Container;
  * 
  * Dependency
  * 
- * Represents a dependency in the DI container. Holds all meta data and is responsible for instantiating
- * the dependency class and holding a singleton instance if it should be treated as a singleton.
- * 
+ * Represents a dependency in the DI container. Holds all meta data used to instantiate an instance.
  */
 class Dependency
 {
