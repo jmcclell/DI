@@ -1,0 +1,10 @@
+{
+    "name": "jmcclell/di",
+    "description": "A very basic DI container for PHP",
+    "autoload": {
+        "psr-0": { "": "src/" }
+    },
+    "require": {
+        "php": ">=5.3.3"
+    }
+}
